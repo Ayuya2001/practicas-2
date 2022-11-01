@@ -1,6 +1,9 @@
 body{
     background-color: lightgrey;
 }
+.headerprincipal{
+    background-color: #dcdcdc;
+}
 .imagen-header{
     width: 10%;
 }
