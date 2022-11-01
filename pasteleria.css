@@ -1,9 +1,28 @@
 body{
     background-color: lightgrey;
+    margin: 0 auto;
+    width: 85%;
 }
 .headerprincipal{
     background-color: #dcdcdc;
 }
 .imagen-header{
-    width: 10%;
+    width: 50%;
+}
+.headerprincipal .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 10%;
+    
+}
+.navbar-items{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
