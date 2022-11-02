@@ -25,4 +25,9 @@ body{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: 1s;
+}
+.navbar-items:hover{
+    color: brown;
+    text-decoration: underline;
 }
