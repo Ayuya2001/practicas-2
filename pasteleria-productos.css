@@ -1,0 +1,29 @@
+
+.headerprincipal{
+    background: #f9eeeb;
+}
+.imagen-header{
+    width: 50%;
+}
+.headerprincipal .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar{
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 5%;
+    font-size: 20px;
+}
+.navbar-items{
+    margin: 5px;
+    text-decoration: none;
+    color: #b61739;
+    font-weight: bold;
+    transition: 1s;
+}
+.navbar-items:hover{
+    color: #eec8bb;
+    text-decoration: underline;
+}
