@@ -1,10 +1,10 @@
+
 body{
-    background-color: lightgrey;
-    margin: 0 auto;
-    width: 85%;
+    background: linear-gradient(#f9eeeb 60% ,#b61739);
 }
+/*comienza el header*/
 .headerprincipal{
-    background-color: #dcdcdc;
+    background: #f9eeeb;
 }
 .imagen-header{
     width: 50%;
@@ -12,22 +12,87 @@ body{
 .headerprincipal .contenedor{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .navbar{
     text-transform: uppercase;
     display: flex;
-    margin-right: 10%;
-    
+    margin-right: 5%;
+    font-size: 20px;
 }
 .navbar-items{
     margin: 5px;
     text-decoration: none;
-    color: black;
+    color: #b61739;
     font-weight: bold;
     transition: 1s;
 }
 .navbar-items:hover{
-    color: brown;
+    color: #eec8bb;
     text-decoration: underline;
 }
+/*termina el header*/
+.imagendelheader{
+    height: 500px;
+    background-image: url(img/pasteleriagourmet.jpg);
+    background-size: cover;
+    background-position: 50%;
+    opacity: 0.88;
+}
+.imagenes-main{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.imagenes-main, h2{
+    text-align: center;
+    font-size: 30px;
+}
+.imagenes-main .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.imagenes-pastel{
+    width: 30%;
+    margin: 0 1% 1% 1% ;
+    box-shadow: 10px 10px 30px 15px black;
+}
+.imagendelheader .contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+.imagendelheader, h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pedir{
+    text-decoration: none;
+    color: #b61739;
+    border: #eec8bb solid 0.1px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 10%;
+    text-align: center;
+}
+footer{
+    background-color:#eec8bb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-footer{
+    width: 30%;
+}
+.copy{
+    font-size: 20px;
+}
+
+/*colores a utilizar #b61739 #eec8bb #f9eeeb*/
